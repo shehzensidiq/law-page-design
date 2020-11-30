@@ -152,4 +152,117 @@ cursor:pointer
 .images-container .image{
     /* width: 100px;
     height: 100px */
+    /* box-shadow: 10px 10px 30px; */
 }
+
+.testimonials-news {
+    margin-top: 30px;
+    display: flex;
+    justify-content:center
+}
+.news-section{
+    width:41%;
+
+}
+
+.news-section p {
+    margin:0
+}
+.news{
+    padding:10px;
+}
+.testimonials{
+    width:40%
+}
+.testimonials-message{
+    padding: 20px
+}
+.testimonial-author{
+    display: flex;
+}
+.testimonials-content img{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.testimonials-content h3{
+    margin:0;
+    margin-left: 10px;
+    padding:0
+}
+.testimonials-content h3 p{
+    font-size: 12px;
+    padding:0;
+    margin:0;
+    font-weight: normal;
+}
+.teams-section{
+    display: flex;
+    justify-content:center
+}
+.teams-section .inner-container{
+    width: 81%
+}
+.teams-content{
+    display: flex;
+    justify-content: space-between;
+}
+.team-member{
+    width: 20%;
+    box-shadow: 10px 5px 30px;
+}
+.team-member img {
+    width: 100%;
+    height: 250px
+}
+.team-member h4{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.team-member p{
+    text-align: center;
+    margin:0;
+    font-weight:normal;
+    font-family: cursive;
+}
+.team-member-content .team-member-message{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.team-member-button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+.team-member-button button{
+    width: 170px;
+    height:50px;
+    font-size:16px;
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 3px;
+
+}
+.clients-section{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+
+}
+.clients-section .inner-container {
+    width: 81%;
+}
+.clients-section .inner-container .clients{
+    display: flex
+}
+.client-image{
+    width:20%;
+    height: 100px;
+    display: flex;
+    justify-content: center
+}
+
